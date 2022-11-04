@@ -272,7 +272,7 @@ New-NetFirewallRule -DisplayName "NetBlocker-AdobeCC_node" -Direction Outbound -
 
 # Common
 
-**Browser Extensions:** Decentraleyes, fireshot, focus to-do, font fingerprint defender, jsonview, kontrast, react developer tools, redux, responsive viewer, return youtube dislike, singlefile, site palette, ublock origin, visbug, web developer, whatfont
+**Browser Extensions:** Decentraleyes, fireshot, focus to-do, font fingerprint defender, jsonview, kontrast, news feed eradicator, privacy badger, react developer tools, redux, responsive viewer, return youtube dislike, singlefile, site palette, ublock origin, visbug, web developer, whatfont
 
 **Sublime Extensions:** AdvancedNewfile, A file icon, Babel, BracketHighlighter, ColorPicker, Color Highlight, Ejs2, Emmet, EsLint, JsPrettier, Material Theme, Monokai pro, Sass, SidebarEnhancements, SublimeCodeIntel
 
