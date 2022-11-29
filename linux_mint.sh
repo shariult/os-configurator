@@ -190,7 +190,7 @@ function appInstaller() {
       ;;
     1)
       echo "// ===== Install Developer Applications from Repository ===== //"
-      sudo apt install codeblocks dia filezilla git gpick putty vim
+      sudo apt install codeblocks dia filezilla git gpick putty
       
       # Rerun Appinstaller
       appInstaller
