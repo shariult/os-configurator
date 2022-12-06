@@ -516,7 +516,7 @@ function extraConfig() {
           return
       fi
 
-      npm install -g asar create-react-app express-generator eslint live-server http-server nodemon prettier sass sass-migrator typescript uglify-js yarn && printf "\n ***** Node.js global packages installed ***** \n"
+      npm install -g asar create-react-app create-next-app express-generator eslint live-server http-server nodemon prettier sass sass-migrator typescript uglify-js yarn && printf "\n ***** Node.js global packages installed ***** \n"
       composer global require laravel/installer friendsofphp/php-cs-fixer && printf "\n ***** Composer global packages installed ***** \n"
       # Rerun extraConfig
       extraConfig
