@@ -65,29 +65,29 @@ Launch SMPlayer and go to Option > Preferences > General > Video (tab). Then sel
 ## VPN Start
 
 ```bash
-sudo openvpn $HOME/.vpn-configs/jp-free-01.protonvpn.com.udp.ovpn
-sudo openvpn $HOME/.vpn-configs/jp-free-02.protonvpn.com.udp.ovpn
-sudo openvpn $HOME/.vpn-configs/jp-free-03.protonvpn.com.udp.ovpn
-sudo openvpn $HOME/.vpn-configs/nl-free-01.protonvpn.com.udp.ovpn
-sudo openvpn $HOME/.vpn-configs/nl-free-02.protonvpn.com.udp.ovpn
-sudo openvpn $HOME/.vpn-configs/nl-free-03.protonvpn.com.udp.ovpn
-sudo openvpn $HOME/.vpn-configs/nl-free-04.protonvpn.com.udp.ovpn
-sudo openvpn $HOME/.vpn-configs/nl-free-05.protonvpn.com.udp.ovpn
-sudo openvpn $HOME/.vpn-configs/nl-free-06.protonvpn.com.udp.ovpn
-sudo openvpn $HOME/.vpn-configs/nl-free-07.protonvpn.com.udp.ovpn
-sudo openvpn $HOME/.vpn-configs/nl-free-08.protonvpn.com.udp.ovpn
-sudo openvpn $HOME/.vpn-configs/nl-free-09.protonvpn.com.udp.ovpn
-sudo openvpn $HOME/.vpn-configs/nl-free-10.protonvpn.com.udp.ovpn
-sudo openvpn $HOME/.vpn-configs/nl-free-11.protonvpn.com.udp.ovpn
-sudo openvpn $HOME/.vpn-configs/us-free-01.protonvpn.com.udp.ovpn
-sudo openvpn $HOME/.vpn-configs/us-free-02.protonvpn.com.udp.ovpn
-sudo openvpn $HOME/.vpn-configs/us-free-03.protonvpn.com.udp.ovpn
-sudo openvpn $HOME/.vpn-configs/us-free-04.protonvpn.com.udp.ovpn
-sudo openvpn $HOME/.vpn-configs/us-free-05.protonvpn.com.udp.ovpn
-sudo openvpn $HOME/.vpn-configs/us-free-06.protonvpn.com.udp.ovpn
-sudo openvpn $HOME/.vpn-configs/us-free-07.protonvpn.com.udp.ovpn
-sudo openvpn $HOME/.vpn-configs/us-free-08.protonvpn.com.udp.ovpn
-sudo openvpn $HOME/.vpn-configs/us-free-09.protonvpn.com.udp.ovpn
+sudo openvpn ~/.vpn-configs/jp-free-01.protonvpn.com.udp.ovpn
+sudo openvpn ~/.vpn-configs/jp-free-02.protonvpn.com.udp.ovpn
+sudo openvpn ~/.vpn-configs/jp-free-03.protonvpn.com.udp.ovpn
+sudo openvpn ~/.vpn-configs/nl-free-01.protonvpn.com.udp.ovpn
+sudo openvpn ~/.vpn-configs/nl-free-02.protonvpn.com.udp.ovpn
+sudo openvpn ~/.vpn-configs/nl-free-03.protonvpn.com.udp.ovpn
+sudo openvpn ~/.vpn-configs/nl-free-04.protonvpn.com.udp.ovpn
+sudo openvpn ~/.vpn-configs/nl-free-05.protonvpn.com.udp.ovpn
+sudo openvpn ~/.vpn-configs/nl-free-06.protonvpn.com.udp.ovpn
+sudo openvpn ~/.vpn-configs/nl-free-07.protonvpn.com.udp.ovpn
+sudo openvpn ~/.vpn-configs/nl-free-08.protonvpn.com.udp.ovpn
+sudo openvpn ~/.vpn-configs/nl-free-09.protonvpn.com.udp.ovpn
+sudo openvpn ~/.vpn-configs/nl-free-10.protonvpn.com.udp.ovpn
+sudo openvpn ~/.vpn-configs/nl-free-11.protonvpn.com.udp.ovpn
+sudo openvpn ~/.vpn-configs/us-free-01.protonvpn.com.udp.ovpn
+sudo openvpn ~/.vpn-configs/us-free-02.protonvpn.com.udp.ovpn
+sudo openvpn ~/.vpn-configs/us-free-03.protonvpn.com.udp.ovpn
+sudo openvpn ~/.vpn-configs/us-free-04.protonvpn.com.udp.ovpn
+sudo openvpn ~/.vpn-configs/us-free-05.protonvpn.com.udp.ovpn
+sudo openvpn ~/.vpn-configs/us-free-06.protonvpn.com.udp.ovpn
+sudo openvpn ~/.vpn-configs/us-free-07.protonvpn.com.udp.ovpn
+sudo openvpn ~/.vpn-configs/us-free-08.protonvpn.com.udp.ovpn
+sudo openvpn ~/.vpn-configs/us-free-09.protonvpn.com.udp.ovpn
 ```
 
 ## Categories for '.desktop'
