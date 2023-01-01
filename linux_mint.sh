@@ -76,6 +76,10 @@ OLDIFS="\$IFS"
 IFS='' list=\$(ls "\${dirname}"/*.\${extensions} -1 2>/dev/null)
 IFS="\$OLDIFS"
 
+# Fixing Numerical Sort
+echo "\$list" > /tmp/vlc.m3u
+list=\`sort -V /tmp/vlc.m3u\`
+
 # get position of filename in current directory
 pos=\$(echo "\$list" | grep -n -F -- "\${basename}" | cut -d: -f1)
 
