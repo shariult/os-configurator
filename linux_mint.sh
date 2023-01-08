@@ -194,7 +194,7 @@ function appInstaller() {
       ;;
     1)
       echo "// ===== Install Developer Applications from Repository ===== //"
-      sudo apt install codeblocks dia filezilla git gpick putty
+      sudo apt install codeblocks dia filezilla git gpick putty python3-pip python3.10-venv
       
       # Rerun Appinstaller
       appInstaller
