@@ -27,19 +27,24 @@ A Guide on setting up Linux mint after installation. Most of the instructions be
 - Startup Applications: mintwelcome + Print Queue Applet + Support for NVIDIA Prime + Warpinator (off)
 - Windows: Behavior > Special key to move and resize window (Super)
 - Disks: Turn on 'Enable Write Cache' in linux root partition
-- Sound: Output > Volume (100%), Sounds>Starting Cinnamon+Leaving Cinnamon (off), Settings > Maximum volume (150%)
+- Sound: Output > Volume (100%), Settings > Maximum volume (150%)
 - Firewall: Turn on
 - Login Window: Settings > Activate numlock (on)
-- Change Terminal && Text editor theme
+- Change Terminal: size 'w: 199 h: 49', Font 'MesloLGS Nerd Font Mono', Text editor theme, Preferences > Scrolling > Show scrollbar, General > Show menubar
 
 ## Shortcuts
 
-1. Keyboard > Shortcuts > General: Show the workspace selection screen (ADD 'Super+Tab')
-2. Keyboard > Shortcuts > Windows: Minimize window (Add 'Alt+f2'), Maximize window (Add 'Alt+f3')
-3. Keyboard > Shortcuts > Windows > Inter-workspace: Move window to left workspace (Alt+Super+Left), Move window to right workspace (Alt+Super+Right)
-4. Keyboard > Shortcuts > Workspaces: Switch to left workspace ('Ctrl+Super+Left'), Switch to right workspace ('Ctrl+Super+Right')
-5. Keyboard > Shortcuts > System > Lock screen (ADD 'Super+L')
-6. Keyboard > Shortcuts > Add Custom Shortcuts: Name= XKill, Command= xkill, (ADD ctrl + esc)
+1. Keyboard > Shortcuts > Windows: Close window 'Super+q', Toggle Maximize window 'Super+m', Minimize window 'Super+n'
+2. Keyboard > Shortcuts > Windows > Inter-workspace: Move window to left workspace 'Alt+Super+Left', Move window to right workspace 'Alt+Super+Right'
+3. Keyboard > Shortcuts > Workspaces: Switch to left workspace 'Ctrl+Super+Left', Switch to right workspace 'Ctrl+Super+Right'
+4. Keyboard > Shortcuts > System > Lock screen 'Super+l'
+5. Keyboard > Shortcuts > Launchers: Launch terminal 'Super+Enter'
+6. Keyboard > Shortcuts > Add Custom Shortcuts: Name='XKill' Command='xkill' 'Ctrl + ESC', Name='Rofi run' Command='rofi -show run' 'Super+p', Name='Rofi Switch Tab' Command='rofi -show window' 'Super+Tab'
+
+## Text Editor
+
+- View: Toolbar, Statusbar
+- Edit > Preferences
 
 ## LibreOffice Tweaks
 
@@ -57,10 +62,6 @@ A Guide on setting up Linux mint after installation. Most of the instructions be
 
 - Open 'Bleachbit' > cache + temporary files + trash > clean
 - Open 'Bleachbit Root' > apt > clean
-
-## Fix SMPlayer
-
-Launch SMPlayer and go to Option > Preferences > General > Video (tab). Then select/type "x11" for Output driver and click on the "Apply" button.
 
 ## VPN Start
 
@@ -95,23 +96,6 @@ sudo openvpn ~/.vpn-configs/us-free-09.protonvpn.com.udp.ovpn
 Main Categories: AudioVideo, Audio, Video, Development, Education, Game, Graphics, Network, Office, Settings, Utility
 
 SubCategories: Building, Debugger, IDE, GUIDesigner, Profiling, RevisionControl, Translation, Calendar, ContactManagement, Database, Dictionary, Chart, Email, Finance, FlowChart, PDA, ProjectManagement, Presentation, Spreadsheet, WordProcessor, 2DGraphics, VectorGraphics, RasterGraphics, 3DGraphics, Scanning, OCR, Photography, Publishing, Viewer, TextTools, DesktopSettings, HardwareSettings, Printing, PackageManager, Dialup, InstantMessaging, Chat, IRCClient, FileTransfer, HamRadio, News, P2P, RemoteAccess, Telephony, TelephonyTools, VideoConference, WebBrowser, WebDevelopment, Midi, Mixer, Sequencer, Tuner, TV, AudioVideoEditing, Player, Recorder, DiscBurning, ActionGame, AdventureGame, ArcadeGame, BoardGame, BlocksGame, CardGame, KidsGame, LogicGame, RolePlaying, Simulation, SportsGame, StrategyGame, Art, Construction, Music, Languages, Science, ArtificialIntelligence, Astronomy, Biology, Chemistry, ComputerScience, DataVisualization, Economy, Electricity, Geography, Geology, Geoscience, History, ImageProcessing, Literature, Math, NumericalAnalysis, MedicalSoftware, Physics, Robotics, Sports, ParallelComputing, Amusement, Archiving, Compression, Electronics, Emulator, Engineering, FileTools, FileManager, TerminalEmulator, Filesystem, Monitor, Security, Accessibility, Calculator, Clock, TextEditor, Documentation, Core, KDE, GNOME, GTK, Qt, Motif, Java, ConsoleOnly
-
-## Configuration for Time and Date Desklet in Linux Mint
-
-```json
-{
-  "description": "A fork desklet that displays the time and date",
-  "prevent-decorations": false,
-  "uuid": "TimeAndDate@nightflame",
-  "name": "Time and Date Desklet",
-  "timeFormat": "%I:%M %p",
-  "timeSize": "64pt",
-  "dateFormat": "%A,%e %B",
-  "dateSize": "32pt",
-  "author": "none",
-  "last-edited": 1639025017
-}
-```
 
 ## Fix Front Panel Sound Issue
 

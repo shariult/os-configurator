@@ -618,7 +618,7 @@ function mainMenu() {
       reRunScript
       ;;
     2)
-      sudo apt install bleachbit copyq firejail git handbrake ibus libdvd-pkg libreoffice-style-sifr k3b nomacs obs-studio okular python3-brotli qbittorrent resolvconf ubuntu-restricted-extras yt-dlp autoconf curl dh-autoreconf ffmpegthumbnailer libavcodec-extra net-tools openjdk-11-jre
+      sudo apt install bleachbit copyq firejail git handbrake ibus libdvd-pkg libreoffice-style-sifr k3b nomacs obs-studio okular python3-brotli qbittorrent resolvconf rofi ubuntu-restricted-extras yt-dlp autoconf curl dh-autoreconf ffmpegthumbnailer libavcodec-extra net-tools openjdk-11-jre
       sudo dpkg-reconfigure libdvd-pkg
       # Confirm Exit
       reRunScript
