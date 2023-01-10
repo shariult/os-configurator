@@ -7,7 +7,7 @@ Keep .deb and .AppImage files in the 'Applications' folder. To install from othe
 "
 
 # Creating Necessary Directories
-mkdir -p ./Applications $HOME/Applications $HOME/.fonts $HOME/.vpn-configs $HOME/.local/share/applications $HOME/.config/npm-packages
+mkdir -p ./Applications $HOME/bin $HOME/Applications $HOME/.fonts $HOME/.vpn-configs $HOME/.local/share/applications $HOME/.config/npm-packages
 
 # Utility Functions
 function reRunScript() {
@@ -118,7 +118,7 @@ function appimageInstaller() {
   [ -f "$FILE.svg" ] && cp "$FILE.svg" $HOME/Applications/"$FILENAME.svg"
   
   # Add Execute permissions
-  chmod +x $HOME/Applications/"$FILENAME.AppImage" && [ -f "$HOME/.local/share/applications/$FILENAME.desktop" ] && chmod +x "$HOME/.local/share/applications/$FILENAME.desktop"
+  chmod +x $HOME/Applications/"$FILENAME.AppImage" && [ -f "$HOME/.local/share/applications/$FILENAME.desktop" ] && chmod +x "$HOME/.local/share/applications/$FILENAME.desktop" && ln -s $HOME/Applications/"$FILENAME.AppImage" $HOME/bin/"$FILENAME"
 
   # Additional Configuration
   if [ "$FILENAME" == "Bootstrap Studio" ]
